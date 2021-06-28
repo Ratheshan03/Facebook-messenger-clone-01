@@ -1,7 +1,8 @@
 .message {
-  padding: 10px;
-  margin: 10px;
+  padding: 8px;
+  margin: 8px;
   width: fit-content;
+  border-radius: 4px;
 }
 
 .message__user {

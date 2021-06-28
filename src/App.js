@@ -44,8 +44,9 @@ function App() {
     <div className="App">
       <img src="https://facebookbrand.com/wp-content/uploads/2018/09/Header-e1538151782912.png?w=100&h=100" alt="Messenger-Logo"/>
       <h1 className="app__title">Messenger</h1>
-      <h5>This is a simple messenger clone built with REACT and FIREBASE</h5>
-      <h3>Welcome {username}! Lets get Started</h3>
+      <h4 className="app__subTitile">From Facebook and Ratheshan Sathiyamoorthy</h4>
+      <h2>Welcome {username}!</h2>
+      <h5>Lets get started</h5>
 
       <form className="app__form">
         <FormControl className="app__formControl">

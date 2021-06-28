@@ -9,14 +9,21 @@
   -webkit-text-fill-color: transparent;
 }
 
+.app__subTitle {
+  margin-top: 0 !important;
+  text-align: right;
+}
+
 .app__form {
-  padding: 20px;
+  padding: 18px;
   position: fixed;
   bottom: 0;
   z-index: 1;
-  background-color: #e9e9eb;
-  width: 95%;
+  background-color: #dfdfdf;
+  width: 90%;
   margin: 20px;
+  border-color: rgb(46, 46, 46);
+  border-radius: 6px;
 }
 
 .app__formControl {
